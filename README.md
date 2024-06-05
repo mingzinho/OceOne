@@ -38,10 +38,17 @@ Para evitar problemas de instalação limpe o cache:
 python -m pip cache purge
 ```
 
+Crie o ambiente virtual (venv) e ative ele com os comandos:
+```
+python -m venv venv
+venv\Scripts\activate
+```
+
+
 para baixar os packages necessarios:
 
 ```
-pip install -r  requirements.txt // pip install -r  requirements.txt --user
+pip install -r  requirements.txt 
 ```
 
 para rodar a aplicação:
