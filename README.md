@@ -30,12 +30,18 @@ lib_dir = r"D:\oracle\instantclient_21_12"  (substitua para seu caminho)
 Após clonar o repositorio utilize os seguintes comandos, para reinstalar o Python e utilizar diretamente o do seu computador:
 
 ```
-python -m pip install --upgrade --force-reinstall pip
+python -m pip install --upgrade --force-reinstall pip // python -m pip install --upgrade --force-reinstall pip
 ```
+
+Para evitar problemas de instalação limpe o cache:
+```
+python -m pip cache purge
+```
+
 para baixar os packages necessarios:
 
 ```
-pip install -r  requirements.txt
+pip install -r  requirements.txt // pip install -r  requirements.txt --user
 ```
 
 para rodar a aplicação:
