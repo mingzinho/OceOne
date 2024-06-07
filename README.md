@@ -20,7 +20,7 @@ Utilize o seguinte comando no PowerShell como Administrador para permitir que o 
 
 
 
-Após isso extraia e copie o diretorio da pasta, substituindo na linha 12 codigo o caminho.
+Após isso extraia e copie o diretorio da pasta, substituindo na linha 15 codigo o caminho.
 ```
 lib_dir = r"D:\oracle\instantclient_21_12"  (substitua para seu caminho)
 ```
